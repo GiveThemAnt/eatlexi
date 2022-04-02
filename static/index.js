@@ -341,10 +341,10 @@ function shareText(score) {
         return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
     }
     SubmitResults();
-    if (score <= 49) return '不合口味吗？';
-    if (score <= 99) return '乐希来全吃了';
-    if (score <= 149) return '老板不仅有钱长得帅还很有眼光';
-    if (score <= 199) return '您';
+    if (score <= 49) return '拜托你好弱欸';
+    if (score <= 99) return '有点东西啊';
+    if (score <= 109) return '手挺快';
+    if (score <= 129) return '非人哉';
     return '人？';
 }
 
